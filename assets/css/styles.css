@@ -39,7 +39,7 @@
 
 /* ---------- base ---------- */
 *, *::before, *::after { box-sizing: border-box; }
-html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; scroll-behavior: smooth; scroll-padding-top: calc(var(--nav-h) + 32px); }
+html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; scroll-behavior: smooth; scroll-padding-top: 24px; }
 html, body { overflow-x: hidden; }
 @supports (overflow: clip) { html, body { overflow-x: clip; } }
 body {
@@ -184,7 +184,7 @@ main, .footer { overflow: hidden; }
 /* =========================================================
    NAVBAR (glassy)
    ========================================================= */
-.nav { position: fixed; inset: 12px 0 auto; z-index: 100; padding-inline: var(--gutter); pointer-events: none; }
+.nav { position: absolute; inset: 12px 0 auto; z-index: 100; padding-inline: var(--gutter); pointer-events: none; }
 .nav__bar {
   pointer-events: auto; position: relative;
   max-width: var(--wrap); margin-inline: auto; height: var(--nav-h);
