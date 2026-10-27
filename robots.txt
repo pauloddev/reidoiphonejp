@@ -1,0 +1,6 @@
+# Rei do iPhone JP
+# TODO: PREENCHER a URL do Sitemap depois do deploy (node scripts/set-site-url.mjs https://SEU-PROJETO.vercel.app)
+User-agent: *
+Allow: /
+
+Sitemap: https://TROCAR-PELO-LINK-DO-VERCEL.vercel.app/sitemap.xml
