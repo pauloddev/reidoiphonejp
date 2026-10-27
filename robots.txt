@@ -3,4 +3,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://TROCAR-PELO-LINK-DO-VERCEL.vercel.app/sitemap.xml
+Sitemap: https://reidoiphonejp.vercel.app/sitemap.xml

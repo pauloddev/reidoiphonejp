@@ -40,7 +40,6 @@ Abra o endereço mostrado. (Abrir o `index.html` direto pelo arquivo não funcio
 | Item | Arquivo e linha | O que fazer |
 |---|---|---|
 | URL do site | `index.html` linhas 8, 18, 26, 28, 35, 64, 66, 67, 68 · `robots.txt` linha 6 · `sitemap.xml` linha 5 · `site.config.json` linha 2 | Depois do deploy, rode `node scripts/set-site-url.mjs https://SEU-PROJETO.vercel.app` (troca tudo de uma vez) |
-| Imagem de compartilhamento | `/og-image.jpg` (referenciada em `index.html` linhas 27 e 28) | Opcional: substituir por arte própria 1200x630 px com o mesmo nome. A atual é provisória, feita do logo |
 | Favicons | raiz: `favicon.ico` (32x32), `favicon.svg`, `apple-touch-icon.png` (180x180), `icon-192.png`, `icon-512.png` (comentário em `index.html` linha 37) | Opcional: substituir mantendo nomes e tamanhos. Os atuais são provisórios, feitos da coroa |
 | Endereço, CEP, horário, mapa | `index.html` linha 83 (bloco comentado do JSON-LD) | Preencher quando tiver: rua e número, CEP, coordenadas e horário de funcionamento |
 
